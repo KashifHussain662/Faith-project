@@ -1,0 +1,59 @@
+body{
+    background-color:antiquewhite ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#Section-home{
+    background-image: url(./images/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner{
+    padding-top: 100px;
+    background-color:rgba(0, 0, 0, 0.233);
+}
+#section-matter{
+    background-color: rgb(36, 76, 95);
+}
+
+#sarvice{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0);
+    border-radius: 10px;
+    /* margin: 100px; */
+
+}
+.site-section {
+    padding: 5em 0; 
+}
+.font-s-c{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color: orange;
+    font-size: 14px;
+    font-family: 'sans-serif';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: white;
+    box-shadow: 10px black;
+    border: none;
+}
+a{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.bg-section{
+    background-color: rgb(36, 76, 95);
+    height: 70vh;
+}
