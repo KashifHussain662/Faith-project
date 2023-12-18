@@ -73,8 +73,8 @@
     <Section class="container-flude site-section" id="Section-about">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-                <strong style="color: orange;" >ABOUT US</strong>
+            <div class="col-lg-6 text-box" >
+                <strong style="color: orange; " >ABOUT US</strong>
                 <h1 class="mt-4">Living and <br> Sharing <br>
                     The Gospel</h1>
                     <p class="h5 mt-4 font-s-c">Far far away, behind the word mountains, far from <br> the countries Vokalia and Consonantia, there live <br> the blind texts.</p>
@@ -258,13 +258,19 @@
     </footer>
 
     <script>
-              ScrollReveal({
+
+              ScrollReveal
+                ({
                  reset: true,
                  distance:'60px',
                  duration:2500,
                  delay:400
                 });
+                ScrollReveal().reveal('#Section-home', {delay: 500, origin:'bottom'});
                 ScrollReveal().reveal('#Section-about', {delay: 500, origin:'left'});
+                ScrollReveal().reveal('#section-sermons', {delay: 500, origin:'top'});
+                ScrollReveal().reveal('#section-matter', {delay: 500, origin:'left'});
+
     </script>
 </body>
 </html>
